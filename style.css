@@ -1,0 +1,137 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+.navbar{
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    padding: 29px 58px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    gap:20px;
+}
+.logo img{
+    width: 68px;
+}
+.search-bar-nav{
+    padding: 0 10px;
+    padding-top: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    border: 2px solid #ff7f50;
+    gap: 5px;
+}
+.search-bar-nav .bx-search{
+    font-size: 24px;
+}
+.search-bar-nav .nav-input{
+    padding: 5px;
+    width: 200px;
+    outline: none;
+    font-size: 14px;
+    border: none;
+    border-radius: 10px;
+}
+.nav-link{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 35px;
+}
+.nav-link li, .nav-link a{
+    list-style: none;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    font-size: 14px;
+}
+.nav-logsign a{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 14px;
+}
+.nav-logsign .login{
+    color: #333;
+    border: 2px solid #ff7f50;
+    transition: .3s ease;
+}
+.nav-logsign .login:hover{
+    color: white;
+    background-color: #ff7f50;
+}
+.nav-logsign .signup{
+    background-color: #ff7f50;
+    border: 2px solid #ff7f50;
+    color: #fff;
+    transition: .3s ease;
+}
+.nav-logsign .signup:hover{
+    background: white;
+    color: #333;
+}
+.container{
+    max-width: 1280px;
+    position: relative;
+}
+.flex-container{
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    margin-left: 50px;
+}
+.content h3{
+    color: #ff7f50;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+.content h1{
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #333;
+}
+.content p{
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 20px;
+}
+.button{
+    display: flex;
+    gap: 10px;
+}
+.daftar,
+.informasi{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+.daftar{
+    background-color: #ff7f50;
+    color: white;
+}
+.informasi{
+    background-color: white;
+    color: #ff7f50;
+    border: 1px solid #ff7f50;
+}
